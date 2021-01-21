@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <title>Inchoo Frontend Assingment</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="clickMe">
+        <img
+          src="img/shopping-cart.png"
+          alt="shopping cart"
+        />
+      </button>
+
+      <div id="arrow"></div>
+
+      <div id="item-container">
+        <h5>My Cart</h5>
+        <div class="mid">
+          <button class="buttonInvisible" id="up" ><i class="fas fa-chevron-up"></i></button>
+        </div>
+
+        <div class="itemVisible" id="first">
+          <img
+            src="img/product-1.jfif"
+            alt="first product"
+          />
+          <div class="content">
+            <h2>This is first item</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+            <h2>400$</h2>
+          </div>
+        </div>
+        <div class="itemVisible" id="second">
+          <img
+            src="img/product-2.jfif"
+            alt="second product"
+          />
+          <div class="content">
+            <h2>This is second item</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+            <h2>200$</h2>
+          </div>
+        </div>
+        <div class="itemVisible" id="third">
+          <img
+            src="img/product-3.jfif"
+            alt="third product"
+          />
+          <div class="content">
+            <h2>This is third item</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+            <h2>25$</h2>
+          </div>
+        </div>
+        <div class="itemInvisible" id="fourth">
+          <img
+            src="img/product-4.jfif"
+            alt="fourth product"
+          />
+          <div class="content">
+            <h2>This is fourth item</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+            <h2>400$</h2>
+          </div>
+        </div>
+        <div class="itemInvisible" id="fifth">
+          <img
+            src="img/product-5.jfif"
+            alt="fifth product"
+          />
+          <div class="content">
+            <h2>This is fifth item</h2>
+            <ul>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+              <li>Lorem Ipsum</li>
+            </ul>
+            <h2>100$</h2>
+          </div>
+        </div>
+
+        <div class="mid">
+          <button class="buttonVisible" id="down"><i class="fas fa-chevron-down"></i></button>
+        </div>
+
+        <div class="submits">
+          <a href="#"><button class="edit">Edit Cart</button></a>
+          <a href="#"><button class="check">Checkout</button></a>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
